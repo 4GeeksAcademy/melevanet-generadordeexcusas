@@ -25,8 +25,9 @@ window.onload = function() {
     " " +
     action[randonindexExcusas(action.length)] +
     " " +
-    what[randonindexExcusas(what.length)]}`;
-  " " + when[randonindexExcusas(action.length)];
+    what[randonindexExcusas(what.length)] +
+    " " +
+    when[randonindexExcusas(action.length)]}`;
 
   document.getElementById("excuse").innerHTML = randomExcuse;
 
